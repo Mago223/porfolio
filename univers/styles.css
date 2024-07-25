@@ -1,0 +1,43 @@
+.connect-section {
+  min-height: 100vh; /* Ensures the section takes at least the full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+.section-container-spacer {
+  margin-bottom: 100px;
+  flex: 0 0 auto; /* Prevents flex growth or shrinkage */
+}
+
+.vertical-center {
+  flex: 1; /* Makes the vertical-center div take up remaining space */
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers children vertically */
+  align-items: center;
+}
+
+.connect-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.email-container {
+  margin-bottom: 20px;
+}
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons .fa-icon {
+  font-size: 24px;
+  margin: 0 10px;
+  color: #333; /* Adjust color as needed */
+  transition: color 0.3s ease;
+}
+
+.social-icons .fa-icon:hover {
+  color: #007bff; /* Adjust hover color as needed */
+}
